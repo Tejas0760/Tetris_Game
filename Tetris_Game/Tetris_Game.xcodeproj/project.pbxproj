@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0B500A2BE2816000A91152 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B50092BE2816000A91152 /* main.cpp */; };
+		6A0B50122BE281D300A91152 /* libraylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0B50112BE281D300A91152 /* libraylib.a */; };
+		6A0B50142BE281D900A91152 /* libraylib.4.5.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0B50132BE281D900A91152 /* libraylib.4.5.0.dylib */; };
+		6A0B501D2BE28EA100A91152 /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B501B2BE28EA100A91152 /* block.cpp */; };
+		6A0B501F2BE28EF600A91152 /* blocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B501E2BE28EF600A91152 /* blocks.cpp */; };
+		6A0B50222BE28F1700A91152 /* colors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B50202BE28F1700A91152 /* colors.cpp */; };
+		6A0B50252BE28F4A00A91152 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B50232BE28F4A00A91152 /* game.cpp */; };
+		6A0B50282BE28F8100A91152 /* grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B50262BE28F8100A91152 /* grid.cpp */; };
+		6A0B502B2BE28FAC00A91152 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B50292BE28FAC00A91152 /* position.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A0B50042BE2816000A91152 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6A0B50062BE2816000A91152 /* Tetris_Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tetris_Game; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0B50092BE2816000A91152 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6A0B50112BE281D300A91152 /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = ../../../../opt/homebrew/Cellar/raylib/5.0/lib/libraylib.a; sourceTree = "<group>"; };
+		6A0B50132BE281D900A91152 /* libraylib.4.5.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libraylib.4.5.0.dylib; path = ../../../../opt/homebrew/Cellar/raylib/5.0/lib/libraylib.4.5.0.dylib; sourceTree = "<group>"; };
+		6A0B501B2BE28EA100A91152 /* block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = block.cpp; sourceTree = "<group>"; };
+		6A0B501C2BE28EA100A91152 /* block.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = block.hpp; sourceTree = "<group>"; };
+		6A0B501E2BE28EF600A91152 /* blocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = blocks.cpp; sourceTree = "<group>"; };
+		6A0B50202BE28F1700A91152 /* colors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = colors.cpp; sourceTree = "<group>"; };
+		6A0B50212BE28F1700A91152 /* colors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = colors.hpp; sourceTree = "<group>"; };
+		6A0B50232BE28F4A00A91152 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		6A0B50242BE28F4A00A91152 /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
+		6A0B50262BE28F8100A91152 /* grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grid.cpp; sourceTree = "<group>"; };
+		6A0B50272BE28F8100A91152 /* grid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = grid.hpp; sourceTree = "<group>"; };
+		6A0B50292BE28FAC00A91152 /* position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		6A0B502A2BE28FAC00A91152 /* position.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = position.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0B50032BE2816000A91152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0B50122BE281D300A91152 /* libraylib.a in Frameworks */,
+				6A0B50142BE281D900A91152 /* libraylib.4.5.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0B4FFD2BE2815F00A91152 = {
+			isa = PBXGroup;
+			children = (
+				6A0B50082BE2816000A91152 /* Tetris_Game */,
+				6A0B50072BE2816000A91152 /* Products */,
+				6A0B50102BE281D300A91152 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0B50072BE2816000A91152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0B50062BE2816000A91152 /* Tetris_Game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0B50082BE2816000A91152 /* Tetris_Game */ = {
+			isa = PBXGroup;
+			children = (
+				6A0B50092BE2816000A91152 /* main.cpp */,
+				6A0B501B2BE28EA100A91152 /* block.cpp */,
+				6A0B501C2BE28EA100A91152 /* block.hpp */,
+				6A0B501E2BE28EF600A91152 /* blocks.cpp */,
+				6A0B50202BE28F1700A91152 /* colors.cpp */,
+				6A0B50212BE28F1700A91152 /* colors.hpp */,
+				6A0B50232BE28F4A00A91152 /* game.cpp */,
+				6A0B50242BE28F4A00A91152 /* game.hpp */,
+				6A0B50262BE28F8100A91152 /* grid.cpp */,
+				6A0B50272BE28F8100A91152 /* grid.hpp */,
+				6A0B50292BE28FAC00A91152 /* position.cpp */,
+				6A0B502A2BE28FAC00A91152 /* position.hpp */,
+			);
+			path = Tetris_Game;
+			sourceTree = "<group>";
+		};
+		6A0B50102BE281D300A91152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0B50132BE281D900A91152 /* libraylib.4.5.0.dylib */,
+				6A0B50112BE281D300A91152 /* libraylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0B50052BE2816000A91152 /* Tetris_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0B500D2BE2816000A91152 /* Build configuration list for PBXNativeTarget "Tetris_Game" */;
+			buildPhases = (
+				6A0B50022BE2816000A91152 /* Sources */,
+				6A0B50032BE2816000A91152 /* Frameworks */,
+				6A0B50042BE2816000A91152 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetris_Game;
+			productName = Tetris_Game;
+			productReference = 6A0B50062BE2816000A91152 /* Tetris_Game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0B4FFE2BE2815F00A91152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					6A0B50052BE2816000A91152 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 6A0B50012BE2815F00A91152 /* Build configuration list for PBXProject "Tetris_Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0B4FFD2BE2815F00A91152;
+			productRefGroup = 6A0B50072BE2816000A91152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0B50052BE2816000A91152 /* Tetris_Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0B50022BE2816000A91152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0B500A2BE2816000A91152 /* main.cpp in Sources */,
+				6A0B50222BE28F1700A91152 /* colors.cpp in Sources */,
+				6A0B501D2BE28EA100A91152 /* block.cpp in Sources */,
+				6A0B50252BE28F4A00A91152 /* game.cpp in Sources */,
+				6A0B502B2BE28FAC00A91152 /* position.cpp in Sources */,
+				6A0B501F2BE28EF600A91152 /* blocks.cpp in Sources */,
+				6A0B50282BE28F8100A91152 /* grid.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A0B500B2BE2816000A91152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6A0B500C2BE2816000A91152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6A0B500E2BE2816000A91152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/raylib/5.0/include;
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/Cellar/raylib/5.0/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A0B500F2BE2816000A91152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /opt/homebrew/Cellar/raylib/5.0/include;
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/Cellar/raylib/5.0/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0B50012BE2815F00A91152 /* Build configuration list for PBXProject "Tetris_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0B500B2BE2816000A91152 /* Debug */,
+				6A0B500C2BE2816000A91152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0B500D2BE2816000A91152 /* Build configuration list for PBXNativeTarget "Tetris_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0B500E2BE2816000A91152 /* Debug */,
+				6A0B500F2BE2816000A91152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0B4FFE2BE2815F00A91152 /* Project object */;
+}
